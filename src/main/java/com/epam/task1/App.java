@@ -38,13 +38,10 @@ public class App
     public static void main( String[] args )
     {
       
-      int no_of_gifts=5;
-      int no_of_children=no_of_gifts;
       Chocolates Chocolate_obj=new Chocolates();
      Candies Candy_obj=new Candies();
-    
      Sweets Sweet_obj=new Sweets();
-     Gift[] gifts=new Gift[no_of_children];
+     Gift[] gifts=new Gift[5];
      gifts[0]=new Gift(Chocolate_obj.choc2(),Sweet_obj.Sweet1());
      gifts[1]=new Gift(Chocolate_obj.choc3(),Candy_obj.Candy2());
      gifts[2]=new Gift(Chocolate_obj.choc1(),Candy_obj.Candy1(),Sweet_obj.Sweet4());
